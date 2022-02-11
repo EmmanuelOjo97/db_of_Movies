@@ -1,0 +1,15 @@
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\bin\Debug\net6.0\dbOfMovies.exe
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\bin\Debug\net6.0\dbOfMovies.deps.json
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\bin\Debug\net6.0\dbOfMovies.runtimeconfig.json
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\bin\Debug\net6.0\dbOfMovies.dll
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\bin\Debug\net6.0\ref\dbOfMovies.dll
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\bin\Debug\net6.0\dbOfMovies.pdb
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\obj\Debug\net6.0\dbOfMovies.csproj.AssemblyReference.cache
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\obj\Debug\net6.0\dbOfMovies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\obj\Debug\net6.0\dbOfMovies.AssemblyInfoInputs.cache
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\obj\Debug\net6.0\dbOfMovies.AssemblyInfo.cs
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\obj\Debug\net6.0\dbOfMovies.csproj.CoreCompileInputs.cache
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\obj\Debug\net6.0\dbOfMovies.dll
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\obj\Debug\net6.0\ref\dbOfMovies.dll
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\obj\Debug\net6.0\dbOfMovies.pdb
+C:\Users\emman\source\repos\dbOfMovies\dbOfMovies\dbOfMovies\obj\Debug\net6.0\dbOfMovies.genruntimeconfig.cache
