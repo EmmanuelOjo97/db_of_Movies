@@ -9,15 +9,18 @@ namespace dbOfMovies
         public static void Main(string[] args)
         {
             Console.WriteLine("This is working fine");
-            var reviews = new List<int>() { 5, 5, 5, 5, 5, 50, 100 };
-            Admin me = new Admin("adminMe", false);
-            if (me.admin == true)
-            {
+            var theMummyReviews = new List<int>() { 5, 5, 5, 5, 5, 50, 100 };
+            var riverdaleReviews = new List<int>() { 7, 4, 6, 8, 4, 8, 9, 20 };
 
+            Admin adminUser = new Admin("adminMe");
+            Customer JohnCena = new Customer("John Cena");
+
+            if (adminUser.admin == true)
+            {
                 var qualitativeCode = new List<string>() { "it was good", "it was really good", "it was bad", "it was alright" };
-                Review myReview = new Review(reviews, qualitativeCode);
-                Films theMummy = new Films("The Mummy", "Horror", 90, 6.99, reviews, qualitativeCode);
-                Series riverdale = new Series("Rivedale", "Teen Drama", 4, 12.99, reviews, qualitativeCode);
+                Review myReview = new Review(theMummyReviews, qualitativeCode);
+                Films theMummy = new Films("The Mummy", "Horror", 90, 6.99, theMummyReviews, qualitativeCode);
+                Series riverdale = new Series("Rivedale", "Teen Drama", 4, 12.99, riverdaleReviews, qualitativeCode);
                 Console.WriteLine(theMummy.name);
                 Console.WriteLine(theMummy.getReview());
                 Console.WriteLine(theMummy.getRating());
@@ -27,8 +30,11 @@ namespace dbOfMovies
             }
             else
             {
+
                 Console.WriteLine("User is not an admin so can not add movies");
             }
+
+            adminUser.addMedia();
 
         }
     }
