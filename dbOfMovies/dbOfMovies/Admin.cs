@@ -16,9 +16,19 @@ namespace dbOfMovies
             this.admin = admin;
         }
 
+        public Admin(string userName) : this(userName, true)
+        {
+
+        }
+
+
         public void deleteMedia()
         {
             Console.WriteLine("This user can delete media");
+        }
+        public void addMedia()
+        {
+            Console.WriteLine("Media added to list");
         }
 
 

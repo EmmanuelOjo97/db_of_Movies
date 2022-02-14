@@ -11,9 +11,6 @@ namespace dbOfMovies
         public List<int> movieRating { get; set; }
         public List<string> movieReviews { get; set; }
 
-        //  base(movieName, genre, movieLength)
-        // , List<string> movieReviews, string movieName, string genre, int movieLength
-
         public Review(List<int> movieRating, List<string> movieReviews)
         {
             this.movieRating = movieRating;
@@ -24,12 +21,6 @@ namespace dbOfMovies
         public int getRating()
         {
             int totalRating = 0;
-
-            /*foreach (var rating in movieRating)
-            {
-
-                totalRating += rating;
-            }*/
             for (int i = 0; i < movieRating.Count; i++)
             {
                 if (movieRating[i] > 10)
@@ -48,8 +39,7 @@ namespace dbOfMovies
         }
         public string getReview()
         {
-            //return movieReviews[position];
-            // List<string> list = new List<string>();
+
             foreach (var item in movieReviews)
             {
                 Console.WriteLine(item);
