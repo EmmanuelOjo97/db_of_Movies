@@ -9,17 +9,24 @@ namespace dbOfMovies
         public static void Main(string[] args)
         {
             Console.WriteLine("This is working fine");
-
-            var reviews = new List<int>() { 10, 10, 10, 10 };
+            var reviews = new List<int>() { 10, 10, 11, 15 };
+            for (int i = 0; i < reviews.Count; i++)
+            {
+                if (reviews[i] > 10)
+                {
+                    reviews[i] = 10;
+                }
+                else
+                {
+                    Console.WriteLine(reviews[i]);
+                }
+            }
             var qualitativeCode = new List<string>() { "it was good", "it was really good", "it was bad", "it was alright" };
             Review myReview = new Review(reviews, qualitativeCode);
-            //Console.WriteLine(myReview.getRating());
-            //Console.WriteLine(myReview.getReview());
-            Films myFilms = new Films("The Mummy", "Horror", 90, 6.99);
+            Films myFilms = new Films("The Mummy", "Horror", 90, 6.99, reviews, qualitativeCode);
             Console.WriteLine(myFilms.movieName);
             Console.WriteLine(myFilms.getReview());
-
-
+            Console.WriteLine(myFilms.getRating());
         }
     }
 }

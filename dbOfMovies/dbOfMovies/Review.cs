@@ -26,6 +26,7 @@ namespace dbOfMovies
             int totalRating = 0;
             foreach (var rating in movieRating)
             {
+
                 totalRating += rating;
             }
             totalRating /= movieRating.Count;
