@@ -9,7 +9,7 @@ namespace dbOfMovies
     public class Films : Review
     {
         /////////////////////Attributes//////////////////////
-        public string movieName { get; set; }
+        public string name { get; set; }
         public string genre { get; set; }
         public int movieLength { get; set; }
         public double price { get; set; }
@@ -20,7 +20,7 @@ namespace dbOfMovies
         /// , List<int> movieRating, List<string> movieReviews
         public Films(string movieName, string genre, int movieLength, double price, List<int> movieRating, List<string> movieReviews) : base(movieRating, movieReviews)
         {
-            this.movieName = movieName;
+            this.name = movieName;
             this.genre = genre;
             this.movieLength = movieLength;
             this.price = price;
